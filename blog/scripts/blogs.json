@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Forward Integration Executive",
+        "description": "Nobis quo est corporis totam dolores. Rerum quam autem debitis dolores sunt et quis occaecati. Nam dolorem dolores.",
+        "publishedDate": "4/1/2024",
+        "imageUrl": "https://picsum.photos/300/200?random", 
+        "url": "/src/blogs/1.html"
+    },
+    {
+        "title": "Forward Integration Executive2",
+        "description": "Nobis quo est corporis totam dolores. Rerum quam autem debitis dolores sunt et quis occaecati. Nam dolorem dolores2.",
+        "publishedDate": "4/2/2024",
+        "imageUrl": "https://picsum.photos/300/200",
+        "url": "/src/blogs/2.html"
+    }
+
+]

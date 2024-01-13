@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="../../dist/output.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +20,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src=""></script>
   </head>
   <body class="bg-wd-black">
     <nav class="bg-wd-darkgrey text-white">
@@ -41,14 +42,7 @@
         </div>
       </div>
     </nav>
-    <header
-      class="h-[400px] w-full flex flex-col justify-center items-center text-primary gap-4 bg-hero-pattern bg-center bg-cover bg-no-repeat"
-    >
-      <h1 class="text-5xl font-bold text-center">
-        WEB DEVELOPMENT<br />BOOTCAMP
-      </h1>
-      <h2 class="text-[32px] font-medium">My Photo Gallery</h2>
-    </header>
+    
 
     <main class="px-8 mb-8 flex flex-col">
       <div
@@ -56,26 +50,9 @@
       >
         Blogs
       </div>
-      <div class="flex justify-between gap-10 mb-6 mt-4">
-        <input
-          class="py-[7px] pl-4 w-full text-wd-black"
-          type="text"
-          placeholder="Search Blog..."
-          oninput="searchBlogs(this)"
-        />
-
-        <select onchange="sortBlogs(this)">
-          <option>Sort</option>
-          <option value="desc">Newest</option>
-          <option value="asc">Oldest</option>
-        </select>
-      </div>
-      <section
-        id="blog-container"
-        class="flex flex-col items-center justify-center gap-6 w-full text-white"
-      >
-        
-      </section>
+      <div class="text-white">
+        Hello Page 2
+      </div>      
     </main>
 
     <footer class="flex flex-col text-white justify-center w-full px-8">
@@ -127,7 +104,6 @@
       </section>
     </footer>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="../scripts/blogs-utils.js"></script>
   </body>
 </html>
 
